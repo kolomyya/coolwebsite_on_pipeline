@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage("Git Clone"){
             steps{
-                git 'git@github.com:kolomyya/coolwebsite_on_pipeline.git'
+                git 'git@github.com:kolomyya/webserver_with_jenkins.git'
             }
         }
         stage ("Copy file to web" ){
